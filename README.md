@@ -1,4 +1,8 @@
-# Shopify注文連動クーポン自動発行サーバー
+# Cursorとの対話によるShopify注文連動クーポン自動発行サーバー
+
+## Cursorによるチャット履歴
+<https://github.com/kimiyuki/hello_shopify-dev-mcp/blob/main/cursor_shopify.md>
+
 
 ## 概要
 Shopifyストアで注文が発生した際、注文金額（顧客の総支払代金：税込・送料込み）が3,000円以上の場合に、その注文者（ユーザー）に500円分のクーポン（ディスカウントコード）をAPI経由で自動発行し、メールで通知するNode.js + TypeScriptサーバーです。
